@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "rebornlife",
+  "version": "${version}",
+
+  "name": "RebornLife",
+  "description": "This mod is inspired by AfterLife, with extra features including origin multiple choice.",
+  "authors": [
+    "Chefe Irkka"
+  ],
+  "contact": {
+    "homepage": "https://www.somiona.com/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.somiona.rebornlife.RebornLife"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
